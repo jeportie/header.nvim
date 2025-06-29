@@ -1,4 +1,4 @@
-<h1 align="center">🛸 42 Header</h1>
+<h1 align="center">🛸 Header</h1>
 
 This plugin is whole re-write of [42header](https://github.com/42Paris/42header) in Lua.
 
@@ -8,10 +8,6 @@ This plugin is whole re-write of [42header](https://github.com/42Paris/42header)
 - Auto update on save (optional)
 - Supports `commentstring`
 - Supports Git
-
-## 🚀 Showcase
-
-![header](https://raw.githubusercontent.com/Diogo-ss/42-header.nvim/7528c7ff25c51bf32301dfc1ece995128d2ae7d5/.github/header_img.png)
 
 ## 🎈 Setup
 

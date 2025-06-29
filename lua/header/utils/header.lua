@@ -69,9 +69,9 @@ end
 function M.gen_header()
   local ascii
   if config.opts.school == true then
-    ascii = config.opts.asciiart
-  else
     ascii = config.opts.asciiart42
+  else
+    ascii = config.opts.asciiart
   end
   local left, right = M.comment_symbols()
   local fill_line = left .. " " .. string.rep("*", config.opts.length - #left - #right - 2) .. " " .. right

@@ -1,5 +1,5 @@
-local config = require "42header.config"
-local utils = require "42header.utils.header"
+local config = require "header.config"
+local utils = require "header.utils.header"
 
 local M = {}
 
@@ -23,7 +23,7 @@ function M.setup(opts)
   end
 
   if config.opts.default_map == true then
-    vim.keymap.set("n", "<F1>", ":Stdheader<CR>", { silent = true, noremap = true })
+    vim.keymap.set("n", "<F2>", ":Stdheader<CR>", { silent = true, noremap = true })
   end
 end
 

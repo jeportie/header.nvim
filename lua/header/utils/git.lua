@@ -1,4 +1,4 @@
----@tag 42header.git
+---@tag header.git
 
 ---@brief [[
 ---
@@ -6,7 +6,7 @@
 ---
 ---@brief ]]
 
-local config = require "42header.config"
+local config = require "header.config"
 
 local M = {}
 

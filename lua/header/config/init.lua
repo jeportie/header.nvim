@@ -39,6 +39,12 @@ M.opts = {
 ---@param opts table: settings
 M.set = function(opts)
   M.opts = vim.tbl_deep_extend("force", M.opts, opts or {})
+  -- Auto-detect school email
+  if M.opts.mail and string.find(M.opts.mail, "42") then
+    M.opts.school = true
+  else
+    M.opts.school = false
+  end
 end
 
 return M

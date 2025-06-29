@@ -67,7 +67,12 @@ end
 ---Generate a complete header.
 ---@return table: A table ontaining all lines of header.
 function M.gen_header()
-  local ascii = config.opts.asciiart42
+  local ascii
+  if config.opts.school == true then
+    ascii = config.opts.asciiart
+  else
+    ascii = config.opts.asciiart42
+  end
   local left, right = M.comment_symbols()
   local fill_line = left .. " " .. string.rep("*", config.opts.length - #left - #right - 2) .. " " .. right
   local empty_line = M.gen_line("", "")

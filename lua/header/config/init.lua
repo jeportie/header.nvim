@@ -7,6 +7,7 @@ M.opts = {
   auto_update = true,
   user = "username",
   mail = "your@mail.com",
+  school = true,
 
   asciiart = {
     ":::::::::::    ::::::::: ",
